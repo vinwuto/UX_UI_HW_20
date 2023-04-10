@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!--Bootstrap Reference-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="css/style.css" rel="stylesheet">
+        <!--Font Import-->
+        <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap" rel="stylesheet">-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+<!-- Nav using bootstrap nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img style="height: 60px" src="images/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">My Skills </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Links</a>
+                </li>
+                <button class="contact nav-item" type="button">
+                  Contact Me
+                </button>
+              </ul>
+            </div>
+        </nav>
+<!-- Introduction using bootstrap col and jumbotron -->
+        <div class="introduction row jumbotron-fluid">
+            <div class="stonewall_picture col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/stonewall_screenshot.png">
+            </div>
+            <div class="container stonewall_text col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <h1 class="display-4">Stonewall Columbus Redesign</h1>
+                <p class="lead">Providing a vital LGBTQIA+ organization with a webpage fitting for their scope. </p>
+                <p>By Lily Homer, Cristin Kelly, Ian Richards, Vincent Wu</p>
+                <a class="btn btn-outline-dark" href="https://www.figma.com/proto/Ybe7vW7nrtTWRWN87NeG5e/Wireframes?page-id=0%3A1&node-id=52-8&viewport=0%2C0%2C1&scaling=scale-down&starting-point-node-id=52%3A8" role="button">Click here to use the <span style="color: #A83333">mobile </span>prototype!</a>
+                <br>
+                <br>
+                <a class="btn btn-outline-dark" href="https://www.figma.com/proto/Ybe7vW7nrtTWRWN87NeG5e/Wireframes?page-id=163%3A8130&node-id=163-8131&viewport=651%2C437%2C0.05&scaling=scale-down&starting-point-node-id=163%3A8131" role="button">Click here to use the <span style="color: #A83333">desktop </span>prototype!</a>
+            </div>
+        </div>
+<!-- Research section using bootstrap col and collapse-->
+        <div class="title">
+            <h1>Research and Analysis</h1>
+            <hr>
+        </div>
+        <div class="reasons row">
+            <div class="website_ss col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="images/stonewall_ss.png">
+            </div>
+            <div class="right_text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Stonewall Columbus is the main LGBTQIA+ center for the city of Columbus, Ohio. </p>
+                <p>Every year, they host the Columbus Pride parade, which welcomes over 700,000 participants annually for the festivities.</p>
+                <p>Given their scope and importance in the community, we felt the site did not fully encapsulate or give off the impression of an organization of their importance.</p>
+            </div>
+        </div>
+        <br>
+        <div class="heuristic_analysis row">
+            <div class="left_text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>We first performed a heuristic evaluation of the site to identify the aspects of the site that worked, and the aspects of the site that we were not confident in. </p>
+                <p>Doing so allowed us to predict some of the problems that might come up during user testing, and to add them to our list.</p>
+                <p>While we waited to hear back from our shareholders at Stonewall Columbus, we scouted out participants for our interviews and user tests, and put out a survey on our social media.</p>
+            </div>
+            <div class="analysis_ss col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="images/analysis_ss.png">
+            </div>
+        </div>
+        <br>
+        <div class="title">
+            <hr>
+        </div>
+        <div class="interviews row">
+            <div class="middle_text col-12">
+                <p class="lead">Conducting our interviews and reading our survey answers yielded some valuable information that we could utilize in our redesign. In particular, some of the answers stuck out to us. </p>
+            </div>
+            <div class="left_text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>
+                    <a class="btn btn-outline-dark" data-toggle="collapse" href="#mission" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        An organization’s <span style="color: #A83333">mission, vision, and values </span> matter to people looking to volunteer or donate.
+                    </a>
+                  </p>
+                  <div class="collapse" id="mission">
+                    <div class="card card-body">
+                      <img src="images/mission_stickies.png">
+                    </div>
+                  </div>
+            </div>
+            <div class="right_text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>
+                    <a class="btn btn-outline-dark" data-toggle="collapse" href="#personal" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span style="color: #A83333">Personal ties to the organization</span> are what keep me coming back.
+                    </a>
+                  </p>
+                  <div class="collapse" id="personal">
+                    <div class="card card-body">
+                      <img src="images/personal_stickies.png">
+                    </div>
+                  </div>
+            </div>
+            <div class="middle_text col-12">
+                <p>
+                    <a class="btn btn-outline-dark" data-toggle="collapse" href="#expectations" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        A website isn't what persuades me to join, but there are some <span style="color: #A83333">basic expectations</span>
+                    </a>
+                  </p>
+                  <div class="collapse" id="expectations">
+                    <div class="card card-body">
+                      <img src="images/expectations_stickies.png">
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="problem jumbotron-fluid">
+            <div class="wrapper_problem">
+                <h1 class="display-4">The Problem</h1>
+            <hr style="margin-left: 20%">
+            <p class="lead">Stonewall Columbus has an outdated website that is clunky and hard to navigate. How may we redesign the website to be more user-friendly, provide resources for Pride Parade attendees, and encapsulate the feeling of an LGBTQIA+ community center?</p>
+            </div>
+        </div>
+<!--Iteration section using bootstrap col, collapse-->
+        <div class="title">
+            <h1>Ideation, Prototyping, and Iteration</h1>
+            <hr>
+        </div>
+        <div class="middle_testing col-12">
+            <p>
+                <a class="btn btn-outline-dark" data-toggle="collapse" href="#user_testing" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    In our user testing, we encountered some common issues that users had trouble with.
+                </a>
+              </p>
+              <div class="collapse" id="user_testing">
+                <div class="card card-body">
+                  <img src="images/user_testing.png">
+                </div>
+              </div>
+        </div>
+        <div class="testing_text row">
+            <div class="website_ss col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <img src="images/stonewall_resources.png">
+            </div>
+            <div class="right_text col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                <p>Aside from our anticipated issues with UI clarity, some of the problems we encountered included a lack of clarity when it came to site structure. With unclear buttons and a navbar that lacked consistency, we decided to
+                    re-map the site map to reduce confusion.</p>
+            </div>
+        </div>
+        <div class="middle_testing col-12">
+            <p>
+                <a class="btn btn-outline-dark" data-toggle="collapse" href="#site_map" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Our redesigned site map brought consistency back to the navigation, and we moved some pages around to better categories. In addition, we added an entire tab dedicated to Pride since it was one of their main focuses every year. 
+                </a>
+              </p>
+              <div class="collapse" id="site_map">
+                <div class="card card-body">
+                  <img src="images/site_map.png">
+                </div>
+              </div>
+        </div>
+        <br>
+        <div class="prototyping_text row">
+            <div class="left_text col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                <p>Our approach to prototyping was mobile-first to keep it clean and simple.</p>
+                <p>With our shareholder interview, we heard they were in the midst of their own redesign, so it was exciting to make a product that they potentially would reference.</p>
+                <p>Our prototype featured more pictures of the Columbus LGBTQIA+ community and a typeface designed by an LGBT typographer.</p>
+                <p>With our rough wireframe, we underwent user testing.</p>
+            </div>
+            <div class="prototype_ss col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/prototype_ss.png">
+            </div>
+        </div>
+        <div class="middle_text col-12">
+            <p>In our next few iterations, we added more color, gradients, cards, and finalized our style tile. After each iteration, we tested with users, which confirmed that our changes helped the site structure as well as the overall feel.</p>
+        </div>
+        <div class="pictures row">
+            <div class="prototype_ss col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <img src="images/stonewall_screenshot.png">
+            </div>
+            <div class="prototype_ss col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <img src="images/pride_ss.png">
+            </div>
+            <div class="prototype_ss col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <img src="images/footer_ss.png">
+            </div>
+        </div>
+        <div class="middle_text col-12">
+            <p>We then expanded our mobile prototype to create the website prototype. I personally took charge of this section and created microinteractions, such as the cards expanding on hover and the menu options flashing colors when hovered.</p>
+        </div>
+        <div class="pictures row">
+            <div class="prototype_ss col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="images/card_microinteraction.png">
+            </div>
+            <div class="prototype_ss col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="images/menu_microinteraction.png">
+            </div>
+        </div>
+        <div class="middle_text col-12">
+            <p>A challenging task at first, the redesign took off once we realized we had to be liberal with our use of color in order to capture the right style. All in all, a fun and unique project that helped me to understand microinteractions and the importance of catering to your users. </p>
+        </div>
+        <div class="prototype_link jumbotron-fluid">
+            <div class="wrapper_problem">
+                <h1 class="display-4">Final Prototypes</h1>
+            <hr style="margin-left: 20%">
+            <a class="btn btn-outline-dark" href="https://www.figma.com/proto/Ybe7vW7nrtTWRWN87NeG5e/Wireframes?page-id=0%3A1&node-id=52-8&viewport=0%2C0%2C1&scaling=scale-down&starting-point-node-id=52%3A8" role="button">Click here to use the <span style="color: #A83333">mobile </span>prototype!</a>
+            <a class="btn btn-outline-dark" href="https://www.figma.com/proto/Ybe7vW7nrtTWRWN87NeG5e/Wireframes?page-id=163%3A8130&node-id=163-8131&viewport=651%2C437%2C0.05&scaling=scale-down&starting-point-node-id=163%3A8131" role="button">Click here to use the <span style="color: #A83333">desktop </span>prototype!</a>
+            </div>
+        </div>
+        <br>
+        <footer>
+            <div class="footer_contact">
+              <div class="contact_me">
+                <h2>Contact Me!</h2>
+              </div>
+              <div class="media_logos">
+                <img src="images/image 4.png">
+                <img src="images/image 5.png">
+                <img src="images/image 6.png">
+                <img src="images/image 7.png">
+                <div class="insta_tag">
+                  <h2>@vinwuto</h2>
+                </div>
+              </div>
+              <div class="information">
+                <h2>(949) 491-4433</h2>
+                <h2>vincent.wuhoo@gmail.com</h2>
+              </div>
+            </div>
+          </footer>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha384-AQhQSZGQWTMJhb/TdS7NWpCmOM/8lIEsaevSU5oZtt8pQKoa+uJL4A2WnQ0O5Zj2" crossorigin="anonymous"></script>
+      </body>
+    <script src="js/index.js"></script>
+</html>
